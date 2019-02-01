@@ -1,0 +1,44 @@
+.hero {
+    background: url(../../img/br/fon.jpg) center center / cover no-repeat;
+    }
+    
+    .hero__order-btn {
+        margin-left: 15px;
+    }
+
+    .hero__container {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .hero__link {
+        display: flex;
+        justify-content: center;
+    }
+    .hero__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex: .75;
+    }
+
+    .hero__content-desc {
+        font-size: 55px;
+        color: #ffff;
+        font-family: 'lifehackmedium';
+    }
+
+    
+    
+    .arrow__down {
+    //     display: flex;
+    //    text-align: center;
+        color: #ffff;
+        text-decoration: none;
+        transform: rotate(90deg);
+        font-weight: bold;
+    //     position: absolute;
+    //     width: 30px;
+    //     margin-bottom: 15px;
+    }
