@@ -34,11 +34,25 @@ font-weight: normal;
 .section {
     height: 100vh;
     min-height: 650px;
-    
+    margin: 0;
+
+     &_centered {
+      .title {
+          width: 100%;
+          text-align: center;
+      }
+      .container {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+      }
+     }
 }
-.ul {
+ul {
     padding: 0;
     margin: 0;
+   
     li {
         list-style: none;
     }

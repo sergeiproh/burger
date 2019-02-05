@@ -1,5 +1,5 @@
 .hero {
-    background: url(../img/br/fon.jpg) center center / cover no-repeat;
+    background: url(../../img/br/fon.jpg) center center / cover no-repeat;
     }
     
     .hero__order-btn {
@@ -29,16 +29,29 @@
         font-family: 'lifehackmedium';
     }
 
+    .hero__content-img {
+        width:480px ;
+        height: 375px;
+        
+    }
     
-    
+    .hero__burger-img {
+        width: 90%;
+        height: 90%;
+        object-fit: cover;
+
+    }
     .arrow__down {
+        background: url(../../img/br/index.html.png);
+        width: 30px;
+        height: 14px;
     //     display: flex;
     //    text-align: center;
         color: #ffff;
-        text-decoration: none;
-        transform: rotate(90deg);
-        font-weight: bold;
-    //     position: absolute;
-    //     width: 30px;
+    //     text-decoration: none;
+    //     transform: rotate(90deg);
+    //     font-weight: bold;
+    // //     position: absolute;
+        
     //     margin-bottom: 15px;
     }
