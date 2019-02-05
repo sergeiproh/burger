@@ -47,7 +47,7 @@ ul li { list-style: none; }
 
 .menu__link { color: #ffff; text-decoration: none; }
 
-.hero { background: url(/img/br/fon.jpg) center center/cover no-repeat; }
+.hero { background: url(../img/br/fon.jpg) center center/cover no-repeat; }
 
 .hero__order-btn { margin-left: 15px; }
 
@@ -73,7 +73,7 @@ ul li { list-style: none; }
 
 .title-black { color: black; }
 
-.best { background: url(/img/best/best.jpg) center center/cover no-repeat; }
+.best { background: url(../img/best/best.jpg) center center/cover no-repeat; }
 
 .best__list { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
@@ -99,7 +99,7 @@ ul li { list-style: none; }
 
 .reviews__item-hover { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.5); color: #fff; padding: 10px; opacity: 0; -webkit-transition: opacity .3s; -o-transition: opacity .3s; transition: opacity .3s; }
 
-.order { background: url(/img/br/order.jpg) center center/cover no-repeat; }
+.order { background: url(../img/br/order.jpg) center center/cover no-repeat; }
 
 .form__row { display: -webkit-box; display: -ms-flexbox; display: flex; }
 
